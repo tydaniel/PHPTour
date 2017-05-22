@@ -1,3 +1,15 @@
+	function uploadOneFile(inputId,w,h,iscallback){
+		if(!w) w=screen.width-4;
+		if(!h) h=screen.height-95;
+		if(!iscallback)iscallback=0;
+		var window_url = SITE_URL+'adminpanel//bookadmin/upload/';
+		$.extDialogFrame(window_url+'1/picture_show/'+inputId+'/'+iscallback,{model:true,width:w,height:h,title:'请上传...',buttons:null});
+	}
+	function getPicture_show(v,s,w,h){
+		$("#picture_show").val(v);
+		$("#picture_show_SRC").attr("src",SITE_URL+BOOK_PIC+v);
+		$("#dialog" ).dialog();$("#dialog" ).dialog("close");
+	}
 
 	define(function (require) {
 	var $ = require('jquery');
@@ -12,6 +24,12 @@
 		$(function () {
 
 
+		$("#picture_show_a").click(function(){
+			uploadOneFile('picture_show',550,350,1)
+		});
+		$("#picture_show_b").click(function(){
+			uploadOneFile('picture_show',550,350,1)
+		});
             $('#validateform').bootstrapValidator({
 				message: '输入框不能为空',
 				feedbackIcons: {

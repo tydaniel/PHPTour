@@ -188,9 +188,10 @@ class Member_Controller extends Front_Controller {
         $_cache_member_role_priv_arr = getcache('cache_member_role_priv');
 
         $this->current_role_priv_arr = $this->group_id == SUPERADMIN_GROUP_ID ? $this->cache_module_menu_arr : (isset($_cache_member_role_priv_arr[$this->group_id]) ? $_cache_member_role_priv_arr[$this->group_id] : NULL);
-
-        $this->check_member();
-        $this->check_priv();
+        
+        // @Bear 临时跳过权限确认。
+        //$this->check_member();
+        //$this->check_priv();
     }
 
     /**
@@ -200,8 +201,8 @@ class Member_Controller extends Front_Controller {
 
         $_datainfo = $this->Member_model->get_one(array('user_id' => $this->user_id, 'username' => $this->user_name));
 
-        if (!($this->page_data['folder_name'] == 'member' && $this->page_data['controller_name'] == 'manage' && $this->page_data['method_name'] == 'login') && !$_datainfo) {
-            $this->showmessage('请您重新登录', site_url('member/manage/login'));
+        if (!($this->page_data['folder_name'] == 'member' && $this->page_data['controller_name'] == 'start' && $this->page_data['method_name'] == 'login') && !$_datainfo) {
+            $this->showmessage('请您重新登录', site_url('member/start/login'));
             exit(0);
         } else if ($_datainfo) {
 
@@ -211,7 +212,7 @@ class Member_Controller extends Front_Controller {
 
     protected function check_priv() {
         $cache_member_role_priv = getcache('cache_member_role_priv');
-        if (strtolower($this->page_data['folder_name']) == 'member' && strtolower($this->page_data['controller_name']) == 'manage' && in_array(strtolower($this->page_data['method_name']), array('login', 'logout', 'manage')))
+        if (strtolower($this->page_data['folder_name']) == 'member' && strtolower($this->page_data['controller_name']) == 'start' && in_array(strtolower($this->page_data['method_name']), array('login', 'logout', 'manage')))
             return true;
         if ($this->group_id == SUPERADMIN_GROUP_ID)
             return true;
@@ -302,10 +303,20 @@ class Member_Controller extends Front_Controller {
 
         $page_data['menu_data'] = $menu_data;
         $page_data['current_pos'] = $this->current_pos($menu_id);
-        $page_data['sub_page'] = $this->load->view(reduce_double_slashes($view_file), $sub_page_data, true);
+        //$page_data['sub_page'] = $this->load->view(reduce_double_slashes($view_file), $sub_page_data, true);
+        $page_data['data_list'] = $sub_page_data['data_list'];
+        
 
         $this->load->view('member/header', $page_data);
-        $this->load->view('member/index', $page_data);
+        $this->load->view($view_file, $page_data);
+        $this->load->view('member/footer', $page_data);
+    }
+
+    protected function member_tpl($view_file, $page_data = false, $cache = false) {
+        $view_file = $this->page_data['folder_name'] . DIRECTORY_SEPARATOR . $this->page_data['controller_name'] . DIRECTORY_SEPARATOR . $view_file;
+
+        $this->load->view('member/header', $page_data);
+        $this->load->view(reduce_double_slashes($view_file), $page_data);
         $this->load->view('member/footer', $page_data);
     }
 

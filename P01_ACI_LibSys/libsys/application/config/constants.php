@@ -41,6 +41,8 @@ define('SITE_URL', '/libsys/');#初始安装，请在这里修改,为实际目�
 define('SKIN_PATH', SITE_URL.'css/');
 define('SYS_STYLE',  'default');
 define('EXT',  '.php');
+define('BOOK_PIC_UPLOAD', 'uploadfile/bookpic');
+define('BOOK_PIC', 'uploadfile/bookpic/');
 
 
 

@@ -13,7 +13,7 @@
                         <ul class="nav masthead-nav">
                             <li class="active"><a href="<?php echo site_url() ?>">首页</a></li>
                             <li class="active"><a href="<?php echo site_url('adminpanel') ?>">后台管理</a></li>
-                            <li class="active"><a href="<?php echo site_url('frontend') ?>">手机前端</a></li>
+                            <li class="active"><a href="<?php echo site_url('member') ?>">手机前端</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -34,7 +34,7 @@
                         <p class="lead">恭喜您安装成功，默认超级管理帐号 admin/test</p>
                         <p class="lead">
                             <a href="<?php echo site_url('adminpanel') ?>" class="btn btn-lg btn-default">进入后台管理</a>
-                            <a href="<?php echo site_url('frontend') ?>" class="btn btn-lg btn-default">进入手机前端</a>
+                            <a href="<?php echo site_url('member') ?>" class="btn btn-lg btn-default">进入手机前端</a>
                         </p>
                     <?php endif; ?>
                 <?php endif; ?>

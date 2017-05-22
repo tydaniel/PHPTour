@@ -56,5 +56,9 @@ $route['adminpanel'] = "adminpanel/manage";
 $route['adminpanel/manage/go_(:num)'] = "adminpanel/manage/go/$1";
 $route['adminpanel/login'] = "adminpanel/manage/login";
 
+$route['member'] = "member/start";
+$route['member/login'] = "member/start/login";
+$route['bookinfo'] = "member/bookinfo";
+
 
 $route['translate_uri_dashes'] = FALSE;

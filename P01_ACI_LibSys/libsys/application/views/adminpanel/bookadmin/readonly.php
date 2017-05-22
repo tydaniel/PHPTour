@@ -52,7 +52,7 @@
                 <div class="form-group">
                     <label for="create_user" class="col-sm-2 control-label form-control-static">创建人</label>
                     <div class="col-sm-9 form-control-static ">
-                        <?php echo isset($data_info['fullname']) ? $data_info['fullname'] : '' ?>
+                        <?php echo isset($data_info['create_user']) ? $data_info['create_user'] : '' ?>
                     </div>
                 </div>
 
@@ -74,6 +74,27 @@
                     <label for="create_date" class="col-sm-2 control-label form-control-static">创建日期</label>
                     <div class="col-sm-9 form-control-static ">
                         <?php echo isset($data_info['create_date']) ? $data_info['create_date'] : '' ?>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="abstract" class="col-sm-2 control-label form-control-static">概要信息</label>
+                    <div class="col-sm-9 form-control-static ">
+                        <?php echo isset($data_info['abstract']) ? $data_info['abstract'] : '' ?>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="picture_show" class="col-sm-2 control-label form-control-static">图片</label>
+                    <div class="col-sm-9 ">
+                        <img src='<?php echo SITE_URL; ?><?php echo isset($data_info['picture_show']) ? (BOOK_PIC. $data_info['picture_show']) : '' ?>' width="100" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="description" class="col-sm-2 control-label form-control-static">介绍</label>
+                    <div class="col-sm-9 form-control-static ">
+                        <?php echo isset($data_info['description']) ? $data_info['description'] : '' ?>
                     </div>
                 </div>
             </fieldset>

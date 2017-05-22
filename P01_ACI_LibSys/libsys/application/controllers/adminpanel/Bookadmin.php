@@ -21,8 +21,12 @@ class Bookadmin extends Admin_Controller {
 
     function __construct() {
         parent::__construct();
-        $this->load->model(array('bookadmin_model', 'user_model'));
+        $this->load->model(array('bookadmin_model'));
         $this->load->helper(array('auto_codeIgniter_helper', 'array'));
+
+        $this->method_config['upload'] = array(
+            'picture_show' => array('upload_size' => 64, 'upload_file_type' => 'jpg|png|gif', 'upload_path' => BOOK_PIC_UPLOAD, 'upload_url' => 'BOOK_PIC_UPLOAD'),
+        );
 
 
         //保证排序安全性
@@ -70,6 +74,8 @@ class Bookadmin extends Admin_Controller {
                 $where_arr[] = "concat(book_name,book_author,book_publishing,book_class,book_no) like '%{$_arr['keyword']}%'";
 
 
+
+
             if ($where_arr)
                 $where = implode(" and ", $where_arr);
         }
@@ -78,8 +84,6 @@ class Bookadmin extends Admin_Controller {
         if ($data_list) {
             foreach ($data_list as $k => $v) {
                 $data_list[$k] = $this->_process_datacorce_value($v);
-                // 获取创建人对应的全名
-                $data_list[$k]['fullname'] = $this->user_model->user_fullname_value($data_list[$k]['create_user']);
             }
         }
         $this->view('lists', array('require_js' => true, 'data_info' => $_arr, 'order' => $order, 'dir' => $dir, 'data_list' => $data_list, 'pages' => $this->bookadmin_model->pages));
@@ -132,6 +136,9 @@ class Bookadmin extends Admin_Controller {
                     exit(json_encode(array('status' => false, 'tips' => '请输入 已借数量')));
             }
             $_arr['create_date'] = date('Y-m-d H:i:s');
+            $_arr['abstract'] = isset($_POST["abstract"]) ? trim(safe_replace($_POST["abstract"])) : '';
+            $_arr['picture_show'] = isset($_POST["picture_show"]) ? trim(safe_replace($_POST["picture_show"])) : '';
+            $_arr['description'] = isset($_POST["description"]) ? trim(safe_replace($_POST["description"])) : '';
 
             $new_id = $this->bookadmin_model->insert($_arr);
             if ($new_id) {
@@ -222,6 +229,9 @@ class Bookadmin extends Admin_Controller {
                     exit(json_encode(array('status' => false, 'tips' => '请输入 已借数量')));
             }
             $_arr['create_date'] = date('Y-m-d H:i:s');
+            $_arr['abstract'] = isset($_POST["abstract"]) ? trim(safe_replace($_POST["abstract"])) : '';
+            $_arr['picture_show'] = isset($_POST["picture_show"]) ? trim(safe_replace($_POST["picture_show"])) : '';
+            $_arr['description'] = isset($_POST["description"]) ? trim(safe_replace($_POST["description"])) : '';
 
             $status = $this->bookadmin_model->update($_arr, array('bookadmin_id' => $id));
             if ($status) {
@@ -248,10 +258,52 @@ class Bookadmin extends Admin_Controller {
         if (!$data_info)
             $this->showmessage('信息不存在');
         $data_info = $this->_process_datacorce_value($data_info);
-        // 获取创建人对应的全名
-        $data_info['fullname'] = $this->user_model->user_fullname_value($data_info['create_user']);
 
         $this->view('readonly', array('require_js' => true, 'data_info' => $data_info));
+    }
+
+    /**
+     * 上传附件
+     * @param string $fieldName 字段名
+     * @param string $controlId HTML控件ID
+     * @param string $callbackJSfunction 是否返回函数
+     * @return void
+     */
+    function upload($isImage = true, $fieldName = '', $controlId = '', $callbackJSfunction = false) {
+        if (isset($this->method_config['upload'][$fieldName])) {
+            if (isset($_POST['dosubmit'])) {
+                $upload_path = $this->method_config['upload'][$fieldName]['upload_path'];
+
+
+                if ($upload_path == '')
+                    die('缺少上传参数');
+
+                $config['upload_path'] = $upload_path;
+                $config['allowed_types'] = $this->method_config['upload'][$fieldName]['upload_file_type'];
+                $config['max_size'] = $this->method_config['upload'][$fieldName]['upload_size'];
+                $config['overwrite'] = FALSE;
+                $config['encrypt_name'] = false;
+                $config['file_name'] = date('Ymdhis') . random_string('nozero', 4);
+
+                dir_create($upload_path); //创建正式文件夹
+                $this->load->library('upload', $config);
+
+                if (!$this->upload->do_upload('upload'))
+                    $this->showmessage("上传失败:" . $this->upload->display_errors());
+                $filedata = $this->upload->data();
+
+                $file_name = $filedata['file_name'];
+                $file_size = $filedata['file_size'];
+                $image_width = $isImage ? $filedata['image_width'] : 0;
+                $image_height = $isImage ? $filedata['image_height'] : 0;
+                $uc_first_id = ucfirst($controlId);
+                $this->showmessage("上传成功！", '', '', '', $callbackJSfunction ? "window.parent.get{$uc_first_id}(\"$file_name\",\"$file_size\",\"$image_width\",\"$image_height\");" : "$(window.parent.document).find(\"#$controlId\").val(\"$file_name\");$(\"#dialog\" ).dialog(\"close\")");
+            }else {
+                $this->view('upload', array('require_js' => true, 'hidden_menu' => true, 'field_name' => $fieldName, 'control_id' => $controlId, 'upload_url' => $this->method_config['upload'][$fieldName]['upload_url'], 'is_image' => $isImage));
+            }
+        } else {
+            die('缺少上传参数');
+        }
     }
 
 }

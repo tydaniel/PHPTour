@@ -87,6 +87,27 @@
 							}
 						 }
 					 },
+					 abstract: {
+						 validators: {
+							notEmpty: {
+								message: '请输入 概要信息'
+							}
+						 }
+					 },
+					 picture_show: {
+						 validators: {
+							notEmpty: {
+								message: '请输入 图片'
+							}
+						 }
+					 },
+					 description: {
+						 validators: {
+							notEmpty: {
+								message: '请输入 介绍'
+							}
+						 }
+					 },
 				}
 			}).on('success.form.bv', function(e) {
 				

@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : WAMP Local(bear)
+Source Server         : wamp-mysql
 Source Server Version : 50714
 Source Host           : localhost:3306
 Source Database       : libsysdb
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-05-20 15:56:56
+Date: 2017-05-22 18:45:35
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -29,6 +29,9 @@ CREATE TABLE `t_aci_bookadmin` (
   `book_total` int(11) DEFAULT '0' COMMENT '库存总量',
   `book_borrowed` int(11) DEFAULT '0' COMMENT '已借数量',
   `create_date` varchar(50) DEFAULT NULL COMMENT '创建日期',
+  `abstract` text COMMENT '概要信息',
+  `picture_show` varchar(250) DEFAULT NULL COMMENT '图片',
+  `description` text COMMENT '介绍',
   `bookadmin_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`bookadmin_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
@@ -36,14 +39,14 @@ CREATE TABLE `t_aci_bookadmin` (
 -- ----------------------------
 -- Records of t_aci_bookadmin
 -- ----------------------------
-INSERT INTO `t_aci_bookadmin` VALUES ('极简欧洲史', '宇宙', '世界图书出版社', '历史', '123-N111', '1', '10', '0', '2017-05-19 14:03:58', '1');
-INSERT INTO `t_aci_bookadmin` VALUES ('麦哲伦航海纪', '苏惠玲', '希望出版社', '历史', '123-N112', '1', '10', '0', '2017-05-19 14:05:54', '2');
-INSERT INTO `t_aci_bookadmin` VALUES ('未来简史', '尤瓦尔', '中信出版社', '历史', '123-N113', '1', '8', '0', '2017-05-19 14:07:35', '3');
-INSERT INTO `t_aci_bookadmin` VALUES ('TensorFlow实战', '黄文坚', '电子工业出版社', '计算机', '224-N211', '5', '5', '0', '2017-05-19 14:14:29', '4');
-INSERT INTO `t_aci_bookadmin` VALUES ('盈利的艺术', '亚德里安', '电子工业出版社', '计算机', '224-N213', '5', '5', '0', '2017-05-19 14:17:59', '5');
-INSERT INTO `t_aci_bookadmin` VALUES ('运营前线1：一线运营专家的运营方法、技巧与实践', '兰军（BLUES）', '机械工业出版社', '计算机', '9787111560876', '1', '5', '0', '2017-05-20 00:41:11', '6');
-INSERT INTO `t_aci_bookadmin` VALUES ('流畅的Python', '[巴西]卢西亚诺·拉马略（Luciano Ramalho）', '人民邮电出版社', '计算机', '9787115454157', '1', '4', '0', '2017-05-20 00:42:52', '7');
-INSERT INTO `t_aci_bookadmin` VALUES ('C++ Primer中文版(第5版)', '(美)李普曼', '电子工业出版社', '计算机', '9787121155352', '1', '6', '0', '2017-05-20 00:45:39', '8');
+INSERT INTO `t_aci_bookadmin` VALUES ('极简欧洲史', '宇宙', '世界图书出版社', '历史', '123-N111', '1', '10', '0', '2017-05-19 14:03:58', null, null, null, '1');
+INSERT INTO `t_aci_bookadmin` VALUES ('麦哲伦航海纪', '苏惠玲', '希望出版社', '历史', '123-N112', '1', '10', '0', '2017-05-19 14:05:54', null, null, null, '2');
+INSERT INTO `t_aci_bookadmin` VALUES ('未来简史', '尤瓦尔', '中信出版社', '历史', '123-N113', '1', '8', '0', '2017-05-19 14:07:35', null, null, null, '3');
+INSERT INTO `t_aci_bookadmin` VALUES ('TensorFlow实战', '黄文坚', '电子工业出版社', '计算机', '224-N211', '5', '5', '0', '2017-05-19 14:14:29', null, null, null, '4');
+INSERT INTO `t_aci_bookadmin` VALUES ('盈利的艺术', '亚德里安', '电子工业出版社', '计算机', '224-N213', '5', '5', '0', '2017-05-19 14:17:59', null, null, null, '5');
+INSERT INTO `t_aci_bookadmin` VALUES ('运营前线1：一线运营专家的运营方法、技巧与实践', '兰军（BLUES）', '机械工业出版社', '计算机', '9787111560876', '1', '5', '0', '2017-05-20 00:41:11', null, null, null, '6');
+INSERT INTO `t_aci_bookadmin` VALUES ('流畅的Python', '[巴西]卢西亚诺·拉马略（Luciano Ramalho）', '人民邮电出版社', '计算机', '9787115454157', '1', '4', '0', '2017-05-20 00:42:52', null, null, null, '7');
+INSERT INTO `t_aci_bookadmin` VALUES ('C++ Primer中文版(第5版)', '(美)李普曼', '电子工业出版社', '计算机', '9787121155352', '1', '6', '0', '2017-05-20 00:45:39', '本书是久负盛名的C++经典教程，其内容是C++大师Stanley B. Lippman丰富的实践经验和C++标准委员会原负责人Josée Lajoie对C++标准深入理解的完美结合，已经帮助全球无数程序员学会了C++。', '201705220252375892.jpg', '本书是久负盛名的C++经典教程，其内容是C++大师Stanley B. Lippman丰富的实践经验和C++标准委员会原负责人Josée Lajoie对C++标准深入理解的完美结合，已经帮助全球无数程序员学会了C++。本版对前一版进行了彻底的修订，内容经过了重新组织，更加入了C++先驱Barbara E. Moo在C++教学方面的真知灼见。既显著改善了可读性，又充分体现了C++语言的*进展和当前的业界*实践。书中不但新增大量教学辅助内容，还包含大量来自实战的示例和习题。本版为*版本。', '8');
 
 -- ----------------------------
 -- Table structure for `t_lib_borrow`
@@ -111,7 +114,7 @@ CREATE TABLE `t_sys_member` (
 -- ----------------------------
 -- Records of t_sys_member
 -- ----------------------------
-INSERT INTO `t_sys_member` VALUES ('1', 'admin', 'fb469d7ef430b0baf0cab6c436e70375', 'panxiaojun@jtu.edu.cn', '1', '0', null, 'aci.jpg', null, null, '::1', '2017-05-20 00:33:24', null, '0', '潘小熊', '5516448', 'dawang', '1', '2015-03-05 18:12:00', '2015-03-10 22:31:19', '1', '1', '13099999999', '男', '1985-10-21', '310000', '310100', '310118');
+INSERT INTO `t_sys_member` VALUES ('1', 'admin', 'fb469d7ef430b0baf0cab6c436e70375', 'panxiaojun@jtu.edu.cn', '1', '0', null, 'aci.jpg', null, null, '::1', '2017-05-22 10:44:26', null, '0', '潘小熊', '5516448', 'dawang', '1', '2015-03-05 18:12:00', '2015-03-10 22:31:19', '1', '1', '13099999999', '男', '1985-10-21', '310000', '310100', '310118');
 INSERT INTO `t_sys_member` VALUES ('2', 'xiaoer', 'f1c0334807a3a51724850170326d3b6e', 'lyhuc@163.com', '2', '0', null, 'nopic.gif', '::1', null, '::1', null, 'wOxmG', '1', '小二', null, null, '0', null, null, '0', '0', '13099999999', '0', null, null, null, null);
 INSERT INTO `t_sys_member` VALUES ('5', 'libadmin', '5a9e37955a5ad4fc38aa0ebf57c13e47', 'libadmin@jtu.edu.cn', '2', '0', null, 'nopic.gif', '::1', '2017-05-19 14:10:23', '::1', '2017-05-19 14:10:50', 'CZlhq', '0', '张馆长', null, null, '0', null, null, '0', '0', '13511123456', '0', null, null, null, null);
 INSERT INTO `t_sys_member` VALUES ('6', 'student.pan', '6521fb46d5e23d012893cec2bc5e1c05', 'student.pan@jtu.edu.cn', '3', '0', null, 'nopic.gif', '::1', '2017-05-20 00:35:21', null, null, 'RT3eG', '0', '流川枫', null, null, '0', null, null, '0', '0', '13512346987', '0', null, null, null, null);
@@ -287,6 +290,7 @@ INSERT INTO `t_sys_sessions` VALUES ('2e1057e4b3875a26a79693ff1a40655e136f3f89',
 INSERT INTO `t_sys_sessions` VALUES ('c91b8430ba45851c6df940f823843770bb672fb9', '::1', '1495238976', 0x5F5F63695F6C6173745F726567656E65726174657C693A313439353233383835333B757365725F69647C733A313A2231223B757365725F66756C6C6E616D657C733A393A22E883A1E5AD90E99485223B757365725F6E616D657C733A343A2274657374223B67726F75705F69647C733A313A2231223B);
 INSERT INTO `t_sys_sessions` VALUES ('29ef382b6c5b759a007a425b204813dd95860a5c', '::1', '1495239587', 0x5F5F63695F6C6173745F726567656E65726174657C693A313439353233393537313B757365725F69647C733A313A2231223B757365725F66756C6C6E616D657C733A393A22E883A1E5AD90E99485223B757365725F6E616D657C733A343A2274657374223B67726F75705F69647C733A313A2231223B);
 INSERT INTO `t_sys_sessions` VALUES ('a7a38bf3aeebfedf4e19156991048ce65222464d', '::1', '1495240602', 0x5F5F63695F6C6173745F726567656E65726174657C693A313439353234303330323B757365725F69647C733A313A2231223B757365725F66756C6C6E616D657C733A393A22E6BD98E5B08FE7868A223B757365725F6E616D657C733A353A2261646D696E223B67726F75705F69647C733A313A2231223B);
+INSERT INTO `t_sys_sessions` VALUES ('7f2eddce8c448c61b485af11af43f41f519a7ecd', '::1', '1495449891', 0x5F5F63695F6C6173745F726567656E65726174657C693A313439353434393632313B757365725F69647C733A313A2231223B757365725F66756C6C6E616D657C733A393A22E6BD98E5B08FE7868A223B757365725F6E616D657C733A353A2261646D696E223B67726F75705F69647C733A313A2231223B);
 
 -- ----------------------------
 -- Table structure for `t_sys_times`
