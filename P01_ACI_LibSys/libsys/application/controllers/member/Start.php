@@ -17,12 +17,13 @@ class Start extends Member_Controller {
 
     function index() {
         log_message('debug', '手机前端Index');
-        $this->view('index', array('require_js' => true));
+        //$this->view('index', array('require_js' => true));
+        redirect(base_url('bookinfo'));
     }
 
     public function logout() {
         $this->session->sess_destroy();
-        redirect(base_url('member'));
+        redirect(base_url('member/login'));
     }
 
     function login() {

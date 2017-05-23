@@ -13,6 +13,7 @@ class MY_Controller extends CI_Controller {
         'module_name' => '',
         'controller_name' => '',
         'method_name' => '',
+        'data_list' => '',
     );
 
     function __construct() {
@@ -190,8 +191,10 @@ class Member_Controller extends Front_Controller {
         $this->current_role_priv_arr = $this->group_id == SUPERADMIN_GROUP_ID ? $this->cache_module_menu_arr : (isset($_cache_member_role_priv_arr[$this->group_id]) ? $_cache_member_role_priv_arr[$this->group_id] : NULL);
         
         // @Bear 临时跳过权限确认。
-        //$this->check_member();
-        //$this->check_priv();
+        if($this->page_data['folder_name'] <> "member") {
+            $this->check_member();
+            $this->check_priv();
+        }
     }
 
     /**
@@ -304,8 +307,15 @@ class Member_Controller extends Front_Controller {
         $page_data['menu_data'] = $menu_data;
         $page_data['current_pos'] = $this->current_pos($menu_id);
         //$page_data['sub_page'] = $this->load->view(reduce_double_slashes($view_file), $sub_page_data, true);
-        $page_data['data_list'] = $sub_page_data['data_list'];
-        
+        if($sub_page_data['data_list']) {
+            $page_data['data_list'] = $sub_page_data['data_list'];
+        }
+        else if($sub_page_data['data_info']){
+            $page_data['data_list'] = $sub_page_data['data_info'];
+        }
+        else {
+            $page_data['data_list'] = $sub_page_data;            
+        }
 
         $this->load->view('member/header', $page_data);
         $this->load->view($view_file, $page_data);

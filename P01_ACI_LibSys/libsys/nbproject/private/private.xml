@@ -3,16 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/wamp64/www/libsys/application/views/adminpanel/bookadmin/edit.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/core/MY_Controller.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/controllers/adminpanel/Bookadmin.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/core/MY_Model.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/views/member/start/login.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/views/member/bookInfo/lists.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/controllers/member/BookInfo.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/views/adminpanel/index.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/config/routes.php</file>
-            <file>file:/D:/wamp64/www/libsys/application/views/adminpanel/bookadmin/lists.php</file>
+            <file>file:/E:/wamp64/www/libsys/application/views/welcome/index.php</file>
+            <file>file:/E:/wamp64/www/libsys/system/core/Common.php</file>
+            <file>file:/E:/wamp64/www/libsys/application/views/member/start/login.php</file>
+            <file>file:/E:/wamp64/www/libsys/application/views/member/start/index.php</file>
+            <file>file:/E:/wamp64/www/libsys/application/controllers/member/BookInfo.php</file>
+            <file>file:/E:/wamp64/www/libsys/application/views/adminpanel/bookadmin/readonly.php</file>
+            <file>file:/E:/wamp64/www/libsys/application/views/member/bookInfo/bookdetail.php</file>
+            <file>file:/E:/wamp64/www/libsys/application/views/member/bookInfo/lists.php</file>
+            <file>file:/E:/wamp64/www/libsys/application/core/MY_Controller.php</file>
         </group>
     </open-files>
 </project-private>

@@ -56,5 +56,15 @@ class BookInfo extends Member_Controller {
     function _process_datacorce_value($v, $is_edit_model = false) {
         return $v;
     }
+    
+    function bookdetail($id = 0) {
+        $id = intval($id);
+        $data_info = $this->bookadmin_model->get_one(array('bookadmin_id' => $id));
+        if (!$data_info)
+            $this->showmessage('信息不存在');
+        $data_info = $this->_process_datacorce_value($data_info);
+
+        $this->view('bookdetail', array('require_js' => true, 'data_info' => $data_info));
+    }
 
 }
