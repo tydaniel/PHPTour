@@ -1,5 +1,7 @@
-<?php 
-if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
 
 /**
  * AutoCodeIgniter.com
@@ -14,45 +16,43 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
  * 最后生成时间：2017-05-19 21:41:38 
  */
 class Bookadmin_model extends Base_Model {
-	
+
     var $page_size = 10;
-    function __construct()
-	{
-    	$this->db_tablepre = 't_aci_';
-    	$this->table_name = 'bookadmin';
-		parent::__construct();
-	}
-    
+
+    function __construct() {
+        $this->db_tablepre = 't_aci_';
+        $this->table_name = 'bookadmin';
+        parent::__construct();
+    }
+
     /**
      * 初始化默认值
      * @return array
      */
-    function default_info()
-    {
-    	return array(
-		'bookadmin_id'=>0,
-		'book_name'=>'',
-		'book_author'=>'',
-		'book_publishing'=>'',
-		'book_class'=>'',
-		'book_no'=>'',
-		'create_user'=>'',
-		'book_total'=>'0',
-		'book_borrowed'=>'0',
-		'create_date'=>'',
-		'abstract'=>'',
-		'picture_show'=>'',
-		'description'=>'',
-		);
+    function default_info() {
+        return array(
+            'bookadmin_id' => 0,
+            'book_name' => '',
+            'book_author' => '',
+            'book_publishing' => '',
+            'book_class' => '',
+            'book_no' => '',
+            'create_user' => '',
+            'book_total' => '0',
+            'book_borrowed' => '0',
+            'create_date' => '',
+            'abstract' => '',
+            'picture_show' => '',
+            'description' => '',
+        );
     }
-    
+
     /**
      * 安装SQL表
      * @return void
      */
-    function init()
-    {
-    	$this->query("CREATE TABLE  IF NOT EXISTS `t_aci_bookadmin`
+    function init() {
+        $this->query("CREATE TABLE  IF NOT EXISTS `t_aci_bookadmin`
 (
 `book_name` varchar(250) DEFAULT NULL COMMENT '图书名',
 `book_author` varchar(250) DEFAULT NULL COMMENT '作者',
@@ -71,8 +71,8 @@ PRIMARY KEY (`bookadmin_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ");
     }
-    
-        }
+
+}
 
 // END bookadmin_model class
 

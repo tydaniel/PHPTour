@@ -533,6 +533,13 @@ $config['aci_module'] = array(
                 'method' => 'bookdetail',
                 'caption' => '图书详细信息',
             ),
+            2 =>
+            array(
+                'folder' => 'member',
+                'controller' => 'bookinfo',
+                'method' => 'borrow',
+                'caption' => '图书详细信息',
+            ),
         ),
     ),
 );

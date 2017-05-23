@@ -307,10 +307,10 @@ class Member_Controller extends Front_Controller {
         $page_data['menu_data'] = $menu_data;
         $page_data['current_pos'] = $this->current_pos($menu_id);
         //$page_data['sub_page'] = $this->load->view(reduce_double_slashes($view_file), $sub_page_data, true);
-        if($sub_page_data['data_list']) {
+        if(isset($sub_page_data['data_list'])) {
             $page_data['data_list'] = $sub_page_data['data_list'];
         }
-        else if($sub_page_data['data_info']){
+        else if(isset($sub_page_data['data_info'])){
             $page_data['data_list'] = $sub_page_data['data_info'];
         }
         else {
