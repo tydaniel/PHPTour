@@ -15,7 +15,7 @@ $config['aci_module'] = array(
         'moduleName' => 'welcome',
         'modulePath' => '',
         'moduleCaption' => '首页',
-        'description' => '由autoCodeigniter 系统的模块',
+        'description' => '由Codeigniter 系统的模块',
         'fileList' => NULL,
         'works' => true,
         'moduleUrl' => '',
@@ -41,7 +41,7 @@ $config['aci_module'] = array(
         'moduleName' => 'user',
         'modulePath' => 'adminpanel',
         'moduleCaption' => '后台管理中心',
-        'description' => '由autoCodeigniter 系统的模块',
+        'description' => '由Codeigniter 系统的模块',
         'fileList' => NULL,
         'works' => true,
         'moduleUrl' => 'adminpanel/user',
@@ -109,7 +109,7 @@ $config['aci_module'] = array(
         'moduleName' => 'user',
         'modulePath' => 'adminpanel',
         'moduleCaption' => '用户 / 用户组管理',
-        'description' => '由autoCodeigniter 系统的模块',
+        'description' => '由Codeigniter 系统的模块',
         'fileList' => NULL,
         'works' => true,
         'moduleUrl' => 'adminpanel/user',
@@ -226,7 +226,7 @@ $config['aci_module'] = array(
         'moduleName' => 'moduleMenu',
         'modulePath' => 'adminpanel',
         'moduleCaption' => '菜单管理',
-        'description' => '由autoCodeigniter 系统的模块',
+        'description' => '由Codeigniter 系统的模块',
         'fileList' => NULL,
         'works' => true,
         'moduleUrl' => 'adminpanel/moduleMenu',
@@ -280,7 +280,7 @@ $config['aci_module'] = array(
         'moduleName' => 'module',
         'modulePath' => 'adminpanel',
         'moduleCaption' => '模块安装管理',
-        'description' => '由autoCodeigniter 系统的模块',
+        'description' => '由Codeigniter 系统的模块',
         'fileList' => NULL,
         'works' => true,
         'moduleUrl' => 'adminpanel/moduleManage',
@@ -366,109 +366,7 @@ $config['aci_module'] = array(
                 'caption' => NULL,
             ),
         ),
-    ),
-    'bookadmin' =>
-    array(
-        'version' => '1',
-        'charset' => 'utf-8',
-        'lastUpdate' => '2017-05-22 10:33:53',
-        'moduleName' => 'bookadmin',
-        'modulePath' => 'adminpanel',
-        'moduleCaption' => '图书信息管理',
-        'description' => '由autoCodeigniter 自动生成的模块',
-        'fileList' =>
-        array(
-            0 => 'application/views/adminpanel/bookadmin/edit.php',
-            1 => 'scripts/adminpanel/bookadmin/edit.js',
-            2 => 'application/views/adminpanel/bookadmin/readonly.php',
-            3 => 'application/views/adminpanel/bookadmin/lists.php',
-            4 => 'scripts/adminpanel/bookadmin/lists.js',
-            5 => 'application/views/adminpanel/bookadmin/choose.php',
-            6 => 'application/views/adminpanel/bookadmin/upload.php',
-            7 => 'application/controllers/adminpanel/Bookadmin.php',
-            8 => 'application/models/Bookadmin_model.php',
-        ),
-        'works' => true,
-        'moduleUrl' => 'adminpanel/bookadmin',
-        'system' => false,
-        'coder' => '胡子锅',
-        'website' => 'http://',
-        'moduleDetails' =>
-        array(
-            0 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'index',
-                'menu_name' => '管理图书信息管理',
-                'caption' => '管理图书信息管理',
-            ),
-            1 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'index',
-                'menu_name' => '图书信息管理列表',
-                'caption' => '图书信息管理列表',
-            ),
-            2 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'add',
-                'menu_name' => '新增',
-                'caption' => '新增',
-            ),
-            3 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'edit',
-                'menu_name' => '修改',
-                'caption' => '修改',
-            ),
-            4 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'choose',
-                'menu_name' => '选择弹窗',
-                'caption' => '选择弹窗',
-            ),
-            5 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'delete_one',
-                'menu_name' => '删除单个',
-                'caption' => '删除单个',
-            ),
-            6 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'delete_all',
-                'menu_name' => '删除多个',
-                'caption' => '删除多个',
-            ),
-            7 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'readonly',
-                'menu_name' => '查看',
-                'caption' => '查看',
-            ),
-            8 =>
-            array(
-                'folder' => 'adminpanel',
-                'controller' => 'bookadmin',
-                'method' => 'upload',
-                'menu_name' => '上传',
-                'caption' => '上传',
-            ),
-        ),
-    ),
+    ),    
     'member' =>
     array(
         'version' => '1',
@@ -502,46 +400,107 @@ $config['aci_module'] = array(
             ),
         ),
     ),
-    'bookinfo' =>
-    array(
-        'version' => '1',
-        'charset' => 'utf-8',
-        'lastUpdate' => '2017-05-22 20:10:10',
-        'moduleName' => 'bookadmin',
-        'modulePath' => 'member',
-        'moduleCaption' => '图书信息',
-        'description' => '在库的所有图书信息',
-        'fileList' => NULL,
-        'works' => true,
-        'moduleUrl' => 'member/bookinfo',
-        'system' => true,
-        'coder' => '@Bear',
-        'website' => 'http://',
-        'moduleDetails' =>       
-        array(
-            0 =>
-            array(
-                'folder' => 'member',
-                'controller' => 'bookinfo',
-                'method' => 'index',
-                'caption' => '图书信息',
-            ),
-            1 =>
-            array(
-                'folder' => 'member',
-                'controller' => 'bookinfo',
-                'method' => 'bookdetail',
-                'caption' => '图书详细信息',
-            ),
-            2 =>
-            array(
-                'folder' => 'member',
-                'controller' => 'bookinfo',
-                'method' => 'borrow',
-                'caption' => '图书详细信息',
-            ),
+    'contract' => 
+    array (
+      'version' => '1',
+      'charset' => 'utf-8',
+      'lastUpdate' => '2017-06-01 10:27:53',
+      'moduleName' => 'contract',
+      'modulePath' => 'adminpanel',
+      'moduleCaption' => '项目合同管理',
+      'description' => '由Codeigniter 自动生成的模块',
+      'fileList' => 
+      array (
+        0 => 'application/views/adminpanel/contract/edit.php',
+        1 => 'scripts/adminpanel/contract/edit.js',
+        2 => 'application/views/adminpanel/contract/readonly.php',
+        3 => 'application/views/adminpanel/contract/lists.php',
+        4 => 'scripts/adminpanel/contract/lists.js',
+        5 => 'application/views/adminpanel/contract/choose.php',
+        6 => 'application/controllers/adminpanel/Contract.php',
+        7 => 'application/models/Contract_model.php',
+      ),
+      'works' => true,
+      'moduleUrl' => 'adminpanel/contract',
+      'system' => false,
+      'coder' => '胡子锅',
+      'website' => 'http://',
+      'moduleDetails' => 
+        array (
+          0 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'index',
+            'menu_name' => '管理项目合同管理',
+            'caption' => '管理项目合同管理',
+          ),
+          1 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'index',
+            'menu_name' => '项目合同管理列表',
+            'caption' => '项目合同管理列表',
+          ),
+          2 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'add',
+            'menu_name' => '新增',
+            'caption' => '新增',
+          ),
+          3 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'edit',
+            'menu_name' => '修改',
+            'caption' => '修改',
+          ),
+          4 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'choose',
+            'menu_name' => '选择弹窗',
+            'caption' => '选择弹窗',
+          ),
+          5 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'delete_one',
+            'menu_name' => '删除单个',
+            'caption' => '删除单个',
+          ),
+          6 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'delete_all',
+            'menu_name' => '删除多个',
+            'caption' => '删除多个',
+          ),
+          7 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'readonly',
+            'menu_name' => '查看',
+            'caption' => '查看',
+          ),
+          8 => 
+          array (
+            'folder' => 'adminpanel',
+            'controller' => 'contract',
+            'method' => 'upload',
+            'menu_name' => '上传',
+            'caption' => '上传',
+          ),
         ),
     ),
-);
+  );
 /* End of file aci.php */
 /* Location: ./application/config/aci.php */

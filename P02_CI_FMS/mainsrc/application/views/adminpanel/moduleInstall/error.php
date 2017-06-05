@@ -14,7 +14,7 @@
         <div class="container">
             <h2>模块安装失败：（ </h2>
 
-            <p>您当前格式：<?php echo $_FILES['autocodeigniterZipFile']['type']; ?></p>
+            <p>您当前格式：<?php echo $_FILES['CodeigniterZipFile']['type']; ?></p>
             <p><?php print_r($error); ?></p>
         </div>
     </div>

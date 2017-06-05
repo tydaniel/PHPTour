@@ -12,8 +12,8 @@
 <div class="col-md-12">
     <div class="jumbotron">
         <div class="container">
-            <h2>欢迎使用Auto Codeigniter </h2>
-            <p>autocodeigniter.com 是基于开源Codeigniter的的扩展程序，如何您有任何问题或意见，请访问我们的网站。</p>
+            <h2>欢迎使用小熊财务系统 </h2>
+            <p>小熊财务系统DEMO。</p>
         </div>
     </div>
     <?php if (!$supportZip): ?>
@@ -27,14 +27,14 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">安装包</label>
                         <div class="col-sm-10">
-                            <input type="file" id="autocodeigniterZipFile" name="autocodeigniterZipFile">
-                            <p class="help-block">请从autocodeigniter.com官方下载模块安装程序。</p>
+                            <input type="file" id="CodeigniterZipFile" name="CodeigniterZipFile">
+                            <p class="help-block">请从Codeigniter.com官方下载模块安装程序。</p>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">官方文件校验码</label>
                         <div class="col-sm-4">
-                            <input type="text" id="autocodeigniterCode" class="form-control" name="autocodeigniterCode">
+                            <input type="text" id="CodeigniterCode" class="form-control" name="CodeigniterCode">
                             <p class="help-block">官方文件校验码简单校验文件真实性。</p>
                         </div>
                     </div>
@@ -48,14 +48,14 @@
                 <div class="form-group">
                     <label class="col-sm-2 control-label">安装包</label>
                     <div class="col-sm-10">
-                        <input type="file" id="autocodeigniterZipFile" name="autocodeigniterZipFile">
-                        <p class="help-block">请从autocodeigniter.com官方下载模块安装程序。</p>
+                        <input type="file" id="CodeigniterZipFile" name="CodeigniterZipFile">
+                        <p class="help-block">请从Codeigniter.com官方下载模块安装程序。</p>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-sm-2 control-label">官方文件校验码</label>
                     <div class="col-sm-4">
-                        <input type="text" id="autocodeigniterCode" class="form-control" name="autocodeigniterCode">
+                        <input type="text" id="CodeigniterCode" class="form-control" name="CodeigniterCode">
                         <p class="help-block">官方文件校验码简单校验文件真实性。</p>
                     </div>
                 </div>

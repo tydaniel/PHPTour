@@ -1869,3 +1869,433 @@ DEBUG - 2017-05-31 06:53:33 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI
 DEBUG - 2017-05-31 06:53:33 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
 DEBUG - 2017-05-31 06:53:33 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
 DEBUG - 2017-05-31 06:53:33 --> Total execution time: 0.1424
+DEBUG - 2017-05-31 07:10:16 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:10:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:10:16 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:10:16 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:10:16 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:10:17 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:10:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:10:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:10:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:10:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:10:17 --> Total execution time: 0.1050
+DEBUG - 2017-05-31 07:10:23 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:10:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:10:23 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:10:23 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:10:23 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:10:25 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:10:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:10:25 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:10:25 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:10:25 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:10:25 --> Total execution time: 0.0940
+DEBUG - 2017-05-31 07:10:27 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:10:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:10:27 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:10:27 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:10:27 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:10:27 --> Total execution time: 0.1096
+DEBUG - 2017-05-31 07:10:30 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:10:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:10:30 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:10:30 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:10:30 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:10:30 --> Total execution time: 0.1158
+DEBUG - 2017-05-31 07:11:20 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:11:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:11:20 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:11:20 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:11:20 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:11:20 --> Total execution time: 0.1190
+DEBUG - 2017-05-31 07:12:32 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:12:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:12:32 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:12:32 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:12:32 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:12:32 --> Total execution time: 0.1256
+DEBUG - 2017-05-31 07:13:43 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:13:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:13:44 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:13:44 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:13:44 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:13:44 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:13:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:13:44 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:13:44 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:13:45 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:13:45 --> Total execution time: 0.1092
+DEBUG - 2017-05-31 07:16:03 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:16:03 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:16:03 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:16:03 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:16:03 --> Total execution time: 0.1105
+DEBUG - 2017-05-31 07:16:12 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:16:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:16:12 --> Total execution time: 0.1083
+DEBUG - 2017-05-31 07:16:12 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:16:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:16:12 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:16:12 --> Total execution time: 0.2082
+DEBUG - 2017-05-31 07:16:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:16:12 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:16:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:16:12 --> Total execution time: 0.2553
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:16:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:16:12 --> Total execution time: 0.2994
+DEBUG - 2017-05-31 07:16:13 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:16:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:16:13 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:16:13 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:16:13 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:16:13 --> Total execution time: 0.1120
+DEBUG - 2017-05-31 07:17:08 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:08 --> Total execution time: 0.1000
+DEBUG - 2017-05-31 07:17:09 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:09 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:09 --> Total execution time: 0.1633
+DEBUG - 2017-05-31 07:17:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:09 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:09 --> Total execution time: 0.2522
+DEBUG - 2017-05-31 07:17:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:09 --> Total execution time: 0.3496
+DEBUG - 2017-05-31 07:17:12 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:12 --> Total execution time: 0.1483
+DEBUG - 2017-05-31 07:17:13 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:13 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:13 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:13 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:13 --> Total execution time: 0.1151
+DEBUG - 2017-05-31 07:17:15 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:15 --> Total execution time: 0.1046
+DEBUG - 2017-05-31 07:17:15 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:15 --> Total execution time: 0.0961
+DEBUG - 2017-05-31 07:17:15 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:15 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:15 --> Total execution time: 0.1542
+DEBUG - 2017-05-31 07:17:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:15 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:15 --> Total execution time: 0.2677
+DEBUG - 2017-05-31 07:17:16 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:16 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:16 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:16 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:16 --> Total execution time: 0.0988
+DEBUG - 2017-05-31 07:17:19 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:19 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:19 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:19 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:20 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:20 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:20 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:20 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:20 --> Total execution time: 0.0953
+DEBUG - 2017-05-31 07:17:25 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:25 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:25 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:25 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:25 --> Total execution time: 0.1127
+DEBUG - 2017-05-31 07:17:31 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:31 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:31 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:31 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:31 --> Total execution time: 0.0882
+DEBUG - 2017-05-31 07:17:35 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:35 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:35 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:35 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:35 --> Total execution time: 0.1041
+DEBUG - 2017-05-31 07:17:37 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:37 --> Total execution time: 0.0934
+DEBUG - 2017-05-31 07:17:37 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:37 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:37 --> Total execution time: 0.2088
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:37 --> Total execution time: 0.2996
+DEBUG - 2017-05-31 07:17:37 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:37 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:38 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:38 --> Total execution time: 0.1144
+DEBUG - 2017-05-31 07:17:38 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:17:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:17:38 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:17:38 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:17:38 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:17:38 --> Total execution time: 0.1023
+DEBUG - 2017-05-31 07:18:11 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:18:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:18:11 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:18:11 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:18:11 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:18:12 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:18:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:18:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:18:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:18:12 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:18:12 --> Total execution time: 0.0958
+DEBUG - 2017-05-31 07:18:17 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:18:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:18:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:18:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:18:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:18:17 --> Total execution time: 0.1083
+DEBUG - 2017-05-31 07:18:22 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:18:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:18:22 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:18:22 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:18:22 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:18:22 --> Total execution time: 0.1032
+DEBUG - 2017-05-31 07:18:24 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:18:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:18:24 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:18:24 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:18:24 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:18:24 --> Total execution time: 0.1083
+DEBUG - 2017-05-31 07:18:34 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:18:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:18:34 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:18:34 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:18:34 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:18:35 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:18:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:18:35 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:18:35 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:18:35 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:18:35 --> Total execution time: 0.0958
+DEBUG - 2017-05-31 07:18:59 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:18:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:18:59 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:00 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:00 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:00 --> Total execution time: 0.1257
+DEBUG - 2017-05-31 07:19:03 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:03 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:03 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:03 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:04 --> Total execution time: 0.1251
+DEBUG - 2017-05-31 07:19:06 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:06 --> Total execution time: 0.1241
+DEBUG - 2017-05-31 07:19:07 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:07 --> Total execution time: 0.0954
+DEBUG - 2017-05-31 07:19:07 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:07 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:07 --> Total execution time: 0.2016
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:07 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:07 --> Total execution time: 0.2746
+DEBUG - 2017-05-31 07:19:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:08 --> Total execution time: 0.3380
+DEBUG - 2017-05-31 07:19:08 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:08 --> Total execution time: 0.2063
+DEBUG - 2017-05-31 07:19:34 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:34 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:34 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:34 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:36 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:36 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:36 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:36 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:36 --> Total execution time: 0.0961
+DEBUG - 2017-05-31 07:19:57 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:19:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:19:57 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:19:57 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:19:57 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:19:57 --> Total execution time: 0.1187
+DEBUG - 2017-05-31 07:20:06 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:06 --> Total execution time: 0.0916
+DEBUG - 2017-05-31 07:20:06 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:06 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:06 --> Total execution time: 0.2398
+DEBUG - 2017-05-31 07:20:07 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:07 --> Total execution time: 0.0971
+DEBUG - 2017-05-31 07:20:07 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:08 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:08 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:08 --> Total execution time: 0.1787
+DEBUG - 2017-05-31 07:20:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:08 --> Total execution time: 0.3686
+DEBUG - 2017-05-31 07:20:08 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:08 --> Total execution time: 0.5617
+DEBUG - 2017-05-31 07:20:09 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:09 --> Total execution time: 0.1136
+DEBUG - 2017-05-31 07:20:09 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:09 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:09 --> Total execution time: 0.1911
+DEBUG - 2017-05-31 07:20:09 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:09 --> Total execution time: 0.2924
+DEBUG - 2017-05-31 07:20:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:09 --> Total execution time: 0.3868
+DEBUG - 2017-05-31 07:20:10 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:10 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:10 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:10 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:10 --> Total execution time: 0.1072
+DEBUG - 2017-05-31 07:20:49 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:49 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:49 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:49 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:50 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:20:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:20:50 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:20:50 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:20:50 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:20:50 --> Total execution time: 0.0968
+DEBUG - 2017-05-31 07:21:07 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:21:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:21:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:21:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:21:07 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:21:07 --> Total execution time: 0.1501
+DEBUG - 2017-05-31 07:21:09 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:21:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:21:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:21:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:21:09 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:21:09 --> Total execution time: 0.1392
+DEBUG - 2017-05-31 07:21:17 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:21:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:21:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:21:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:21:17 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:21:17 --> Total execution time: 0.1238
+DEBUG - 2017-05-31 07:21:19 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:21:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:21:19 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:21:19 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:21:19 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:21:19 --> Total execution time: 0.1846
+DEBUG - 2017-05-31 07:21:23 --> UTF-8 Support Enabled
+DEBUG - 2017-05-31 07:21:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-05-31 07:21:23 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/config.php
+DEBUG - 2017-05-31 07:21:23 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/seo.php
+DEBUG - 2017-05-31 07:21:23 --> Config file loaded: D:\wamp64\www\phpTour\P02_CI_FMS\mainsrc\application\config/aci.php
+DEBUG - 2017-05-31 07:21:23 --> Total execution time: 0.1342

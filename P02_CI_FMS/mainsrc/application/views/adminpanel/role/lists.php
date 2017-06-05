@@ -21,7 +21,8 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th nowrap="nowrap" width="70%">用户组名</th>
+                                <th nowrap="nowrap" width="30%">用户组名</th>
+                                <th nowrap="nowrap" width="40%">说明</th>
                                 <th>操作</th>
                             </tr>
                         </thead>
@@ -30,6 +31,7 @@
                                 <tr>
                                     <td><?php echo $k + 1 ?></td>
                                     <td><?php echo $v['role_name'] ?></td>
+                                    <td><?php echo $v['description'] ?></td>
                                     <td>
                                         <?php aci_ui_a($folder_name, 'role', 'edit', $v['role_id'], ' class="btn btn-default btn-xs"', '<span class="glyphicon glyphicon-edit"></span> 修改') ?>
                                         <?php if ($v['role_id'] != SUPERADMIN_GROUP_ID): ?>

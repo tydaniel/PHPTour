@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <a href="/libsys/adminpanel/manage/login" ><h3>小熊图书管理系统</h3></a>
+                <a href="/libsys/adminpanel/manage/login" ><h3>小熊财务管理系统</h3></a>
             </div>
             <div class="col-md-6">
                 <a href="<?php echo site_url() ?>">首页 </a>

@@ -7,7 +7,7 @@
         <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
         <meta name="description" content="<?php echo $description ?>">
         <meta name="keyword" content="<?php echo $keyword ?>">
-        <meta name="author" content="autocodeigniter.com">
+        <meta name="author" content="Codeigniter.com">
         <link rel="icon" href="favicon.ico">
 
         <title><?php echo $title ?></title>

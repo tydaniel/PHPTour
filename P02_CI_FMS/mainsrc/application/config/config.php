@@ -308,7 +308,7 @@ $config['cache_query_string'] = FALSE;
 | http://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'ACI_BY_AUTOCODEIGNITER_COM';
+$config['encryption_key'] = 'ACI_BY_Codeigniter_COM';
 
 /*
 |--------------------------------------------------------------------------
@@ -362,7 +362,7 @@ $config['encryption_key'] = 'ACI_BY_AUTOCODEIGNITER_COM';
 |
 */
 $config['sess_driver'] = 'database';
-$config['sess_cookie_name'] = 'autocodeigniter_com';
+$config['sess_cookie_name'] = 'Codeigniter_com';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = 't_sys_sessions';
 $config['sess_match_ip'] = FALSE;

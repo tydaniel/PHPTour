@@ -20,7 +20,7 @@
             </div>
 
             <div class="inner cover">
-                <h1 class="cover-heading">欢迎光临小熊图书馆. </h1>
+                <h1 class="cover-heading">欢迎光临小熊财务管理. </h1>
                 <?php if (version_compare(PHP_VERSION, '5.3.0') <= 0) : ?>
                     <p class="lead">很抱歉，Web服务器要求最低PHP版本不能小于PHP 5.3</p>
                 <?php else: ?>
